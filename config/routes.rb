@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :tests
+  resources :reviews
+  resources :reservations
   resources :users
 
   resources :listings
